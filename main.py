@@ -5,8 +5,8 @@ from datetime import datetime, timedelta
 REPO_DIR = "."  # ganti ke path repo kamu kalau perlu
 tz = "+07:00"   # timezone Jakarta
 
-start_date = datetime(2025, 1, 1)  # mulai commit dari tanggal ini
-end_date   = datetime(2025, 6, 14)  # sampai tanggal ini (ikut / inclusive)
+start_date = datetime(2025, 8, 24)  # mulai commit dari tanggal ini
+end_date   = datetime(2025, 10, 25)  # sampai tanggal ini (ikut / inclusive)
 
 # per hari mau berapa commit? bisa angka, bisa random di range
 MIN_COMMITS_PER_DAY = 1
